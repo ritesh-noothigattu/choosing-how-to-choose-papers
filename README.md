@@ -1,6 +1,6 @@
 # choosing-how-to-choose-papers
 
-Code corresponding to the paper [Choosing How to Choose Papers](http://www.cs.cmu.edu/~rnoothig/papers/subjective_reviews.pdf)
+Code corresponding to the paper: [Choosing How to Choose Papers](http://www.cs.cmu.edu/~rnoothig/papers/subjective_reviews.pdf).
 
 - `Data/toy_data.csv`: Toy data with completely random data, used to only depict the format of the input
 
@@ -12,4 +12,4 @@ Code corresponding to the paper [Choosing How to Choose Papers](http://www.cs.cm
 
 - `reviewer_losses.py`: File that reads the input dataset and the aggregate function in "p1q1_aggregate_fn.txt" to compute losses of reviewers. It plots the histogram of these losses, and prints some relevant statistics
 
-- 'varying_num_revs.py': Similar to "learn_aggregate.py", except that this file takes p, q *and* a cap on the number of reviews per paper. It (randomly) discards reviews exceeding this cap, and performs L(p,q) aggregation on the remaining data
+- `varying_num_revs.py`: Similar to "learn_aggregate.py", except that this file takes p, q **and** a cap on the number of reviews per paper. It (randomly) discards reviews exceeding this cap, and performs L(p,q) aggregation on the remaining data
